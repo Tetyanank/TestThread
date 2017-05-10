@@ -8,6 +8,7 @@ public class Main {
             myThread.start();        // start() - запускает ввыполнение потока
 
         }
+        String str = "New String";
         System.out.println("Hello world new ");
         Thread thread = new Thread(new MyRunnable());
         thread.setName("Test");
