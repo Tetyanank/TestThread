@@ -10,7 +10,9 @@ public class Main {
 
         }
         String str = "New String";
+        for(int i=0; i<3; i++){
         System.out.println("Hello world new ");
+        }
         Thread thread = new Thread(new MyRunnable());
         thread.setName("Test");
         // выставлять приоритет до вызова метода старт
