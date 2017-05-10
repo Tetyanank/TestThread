@@ -8,7 +8,7 @@ public class Main {
             myThread.start();        // start() - запускает ввыполнение потока
 
         }
-
+        System.out.println("Hello world new ");
         Thread thread = new Thread(new MyRunnable());
         thread.setName("Test");
         // выставлять приоритет до вызова метода старт
