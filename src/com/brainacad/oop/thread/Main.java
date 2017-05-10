@@ -10,6 +10,7 @@ public class Main {
             myThread.start();        // start() - запускает ввыполнение потока
 
         }
+        MyThread mt2 = new MyThread();
         String str = "New String";
         for(int i=0; i<3; i++){
         System.out.println("Hello world new ");
