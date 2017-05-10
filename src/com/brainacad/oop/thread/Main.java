@@ -3,6 +3,7 @@ package com.brainacad.oop.thread;
 public class Main {
     public static void main(String[] args){
         System.out.println("Hello world!");
+        MyRunnable rnb2 = new MyRunnable();
         for (int i = 0; i < 5; i++) {
             MyThread myThread = new MyThread();
            // myThread.setDaemon(true);
